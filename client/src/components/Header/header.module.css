@@ -1,0 +1,58 @@
+.container {
+  width: 100%;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.nav {
+  height: 80px;
+  width: 96%;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 225px;
+}
+
+.logo img {
+  width: 100%;
+}
+
+.menus ul {
+  display: flex;
+  gap: 20px;
+  padding: 0 20px;
+  list-style: none;
+  align-items: center;
+}
+
+.button {
+  background: rgb(47, 47, 255);
+  color: hwb(0 100% 0%);
+  padding: 5px 30px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: rgb(46, 46, 209);
+  color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .logo {
+    width: 120px;
+  }
+
+  .menus ul {
+    font-size: 14px;
+  }
+
+  .button {
+    padding: 4px 12px;
+    font-size: 12px;
+    min-width: 67px;
+  }
+}

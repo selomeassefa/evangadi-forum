@@ -1,0 +1,120 @@
+.container {
+  min-height: calc(100vh - 312px);
+  background-color: #fafafa;
+}
+
+.innerWrapper {
+  max-width: 1240px;
+  width: 94%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0;
+}
+
+.form {
+  flex: 1;
+  box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.2);
+  background: white;
+  text-align: center;
+  padding: 120px 40px;
+  border-top: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+}
+
+.form h2 {
+  font-size: 20px;
+  font-weight: 500;
+  padding: 20px 0;
+}
+
+.form input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #777;
+  border-radius: 6px;
+}
+
+.form input:focus {
+  outline: none;
+}
+
+.password {
+  position: relative;
+}
+
+.eye {
+  position: absolute;
+  right: 15px;
+  top: 25px;
+  color: #444;
+  font-size: 18px;
+}
+
+.form button,
+.about button {
+  background: orange;
+  color: white;
+  padding: 5px 40px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  margin: 10px 0;
+  min-width: 140px;
+}
+
+.form button:hover {
+  background: #0a0a0a;
+}
+
+.form a {
+  color: orange;
+  text-decoration: underline;
+  display: block;
+  font-size: 14px;
+}
+
+.about {
+  flex: 1;
+  color: #444;
+  padding: 0 24px;
+}
+
+.about div {
+  color: orange;
+}
+
+.about h3 {
+  font-size: 28px;
+  font-weight: 500;
+  padding: 10px 0 0;
+}
+
+.about p {
+  font-size: 16px;
+  padding: 10px 0;
+}
+
+.error {
+  color: red;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 10px 0;
+  background: rgba(245, 69, 69, 0.702);
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 90%;
+    margin-inline: auto;
+  }
+
+  .about {
+    display: none;
+  }
+}

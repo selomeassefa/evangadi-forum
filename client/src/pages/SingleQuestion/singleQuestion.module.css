@@ -1,0 +1,142 @@
+.container {
+  min-height: calc(100vh - 315px);
+  width: 96%;
+  max-width: 1240px;
+  margin: 0 auto;
+}
+
+.question {
+  padding: 2rem 0;
+}
+
+.question h2 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.question > div {
+  width: 80px;
+  height: 4px;
+  background: orange;
+  margin: 0.5rem 0 1rem 0;
+}
+
+.question h3 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  /* margin-bottom: 1rem; */
+}
+
+.question p {
+  font-size: 1.1rem;
+  padding: 0.2rem 0;
+  color: #333;
+}
+
+.answers h2 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  border-top: 1px solid #aaa;
+  border-bottom: 1px solid #aaa;
+  padding: 0.8rem 0;
+  margin-bottom: 1rem;
+}
+
+.answerQuestion {
+  box-shadow: 4px 8px 8px rgba(0, 0, 0, 0.2);
+  border-top: 2px solid #eee;
+  border-left: 1px solid #eee;
+  border-radius: 10px;
+  padding-bottom: 1rem;
+  margin-bottom: 8rem;
+}
+
+.answerQuestion h2 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  padding: 0.8rem 0;
+  margin: 4rem 0 0.5rem;
+  text-align: center;
+}
+
+.answerQuestion p {
+  text-align: center;
+}
+
+.answerQuestion a {
+  padding: 0.5rem 1rem;
+  color: #555;
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.answerQuestion form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  margin-inline: auto;
+  margin-bottom: 4rem;
+}
+
+.answerQuestion textarea {
+  width: 100%;
+  height: 150px;
+  padding: 0.5rem;
+  font-size: 1.1rem;
+  margin: 1rem auto;
+  border: 1px solid #aaa;
+  border-radius: 10px;
+  resize: none;
+}
+
+.answerQuestion button {
+  padding: 0.5rem 1rem;
+  background: rgb(46, 46, 209);
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+  align-items: start !important;
+  text-align: start !important;
+  margin-right: auto !important;
+  text-align: left !important;
+}
+
+.answerQuestion code,
+.answerQuestion h5 {
+  font-size: 5rem;
+  background: black;
+}
+
+.code {
+  background: #000;
+}
+
+.empty {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #999;
+  padding: 4rem 0 6rem;
+  text-align: center;
+}
+
+.empty img {
+  width: 100px;
+  filter: grayscale(40%);
+  margin-inline: auto;
+}
+
+.error {
+  color: red;
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 1rem auto 0rem;
+  background: rgba(216, 54, 54, 0.494);
+  padding: 0.2rem 0.5rem;
+  border-radius: 5px;
+  width: 90%;
+  text-align: center;
+}

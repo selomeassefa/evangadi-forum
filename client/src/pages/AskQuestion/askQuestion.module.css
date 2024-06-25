@@ -1,0 +1,125 @@
+.container {
+  min-height: calc(100vh - 315px);
+  width: 96%;
+  max-width: 1240px;
+  margin: 0 auto;
+}
+
+.guide {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #555;
+  width: fit-content;
+  margin: 1rem auto;
+  padding: 0 2rem 4rem;
+}
+
+.guide h2 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  padding: 0.5rem 0;
+  margin: 4rem 0 0;
+  text-align: center;
+}
+
+.guide ul {
+  list-style: disc;
+}
+
+.askQuestion {
+  /* text-align: center; */
+}
+
+.askQuestion {
+  box-shadow: 4px 8px 8px rgba(0, 0, 0, 0.2);
+  border-top: 2px solid #eee;
+  border-left: 1px solid #eee;
+  border-radius: 10px;
+  padding-bottom: 1rem;
+  margin-bottom: 8rem;
+}
+
+.askQuestion h2 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  padding: 0.8rem 0;
+  margin: 4rem 0 0.5rem;
+  text-align: center;
+}
+
+.askQuestion p {
+  text-align: center;
+}
+
+.askQuestion a {
+  padding: 0.5rem 1rem;
+  color: #555;
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.askQuestion form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  margin-inline: auto;
+  margin-bottom: 4rem;
+}
+
+.askQuestion input {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1.1rem;
+  margin: 1rem auto 0;
+  border: 1px solid #aaa;
+  border-radius: 10px;
+}
+
+.askQuestion textarea {
+  width: 100%;
+  height: 150px;
+  padding: 0.5rem;
+  font-size: 1.1rem;
+  margin: 0.5rem auto 1rem;
+  border: 1px solid #aaa;
+  border-radius: 10px;
+  resize: none;
+}
+
+.askQuestion button {
+  padding: 0.5rem 1rem;
+  background: rgb(46, 46, 209);
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+  align-items: start !important;
+  text-align: start !important;
+  margin-right: auto !important;
+  text-align: left !important;
+}
+
+.error {
+  color: red;
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 1rem auto 0rem;
+  background: rgba(216, 54, 54, 0.494);
+  padding: 0.2rem 0.5rem;
+  border-radius: 5px;
+  width: 100%;
+  text-align: center;
+}
+
+.wordCounterContainer {
+  width: 98%;
+  margin-inline: auto;
+}
+
+.wordCounter {
+  height: 2px;
+  align-self: self-start;
+}
